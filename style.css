@@ -1,0 +1,20 @@
+.card-design:hover{
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+}
+.card-design{
+    border-radius: 5% !important;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 0.2rem 1rem 0 rgb(220, 31, 31); */
+    background: linear-gradient(45deg,lightgray,white);
+    /* padding: 5%; */
+}
+.design{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightseagreen;
+}
